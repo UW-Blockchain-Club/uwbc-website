@@ -37,10 +37,31 @@
     <section class="section">
       <carousel :per-page="1" :autoplay="true" mouse-drag="false">
         <slide>
-          Slide 1 Content
+          <img src="../assets/img1.png" width=50% height=50%>
         </slide>
         <slide>
-          Slide 2 Content
+          <img src="../assets/img2.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img3.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img4.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img5.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img6.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img7.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img8.png" width=50% height=50%>
+        </slide>
+        <slide>
+          <img src="../assets/img9.png" width=50% height=50%>
         </slide>
       </carousel>
     </section>
