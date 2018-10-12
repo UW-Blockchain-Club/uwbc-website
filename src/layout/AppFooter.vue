@@ -18,10 +18,10 @@
             </div>
             <div class="is-divider-vertical"></div>
 
-            <div class="column">
-                <i class="fab fa-facebook"></i>&nbsp;Facebook<br/>
-                <i class="fab fa-facebook-messenger"></i>&nbsp;Messenger<br/>
-                <i class="fab fa-linkedin"></i>&nbsp;LinkedIn
+            <div class="column">    
+                <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook-f' }"/>&nbsp;Facebook<br />
+                <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook-messenger' }"/>&nbsp;Messenger<br />
+                <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin-in' }"/>&nbsp;LinkedIn
             </div>
         </div>
     </footer>

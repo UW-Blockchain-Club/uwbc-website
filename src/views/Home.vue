@@ -35,37 +35,43 @@
     </section>
 
     <section class="section">
-      <carousel :per-page="1" :autoplay="true" mouse-drag="false">
-        <slide>
-          <img src="../assets/img1.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img2.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img3.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img4.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img5.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img6.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img7.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img8.png" width=50% height=50%>
-        </slide>
-        <slide>
-          <img src="../assets/img9.png" width=50% height=50%>
-        </slide>
-      </carousel>
+      <div class="columns">
+        <div class="column">
+          <h1 class="title">Hello There</h1>
+        </div>
+        <div class="column">
+          <carousel :per-page="1" :autoplay="true" mouse-drag="false">
+            <slide>
+              <img src="../assets/img1.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img2.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img3.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img4.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img5.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img6.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img7.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img8.png" width=60% height=60%>
+            </slide>
+            <slide>
+              <img src="../assets/img9.png" width=60% height=60%>
+            </slide>
+          </carousel>
+        </div>
+      </div>
     </section>
-
   </div>
 </template>
 
