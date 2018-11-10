@@ -1,7 +1,10 @@
 <template>
     <div class="header">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="../assets/navbar-logo.png" >
+                </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

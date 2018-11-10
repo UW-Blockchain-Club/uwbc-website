@@ -1,8 +1,8 @@
 <template>
-    <footer class="footer hero has-background-link">
-        <div class="columns has-text-centered has-text-white">
+    <footer class="footer hero blue-logo-color">
+        <div class="columns has-text-centered">
             <div class="column">
-                <img alt="UWBC logo" src="../assets/logo.png" height="30%" width="30%">
+                <img alt="UWBC logo" src="../assets/logo.png" height="40%" width="40%">
             </div>
             <div class="is-divider-vertical"></div>
             <div class="column">
