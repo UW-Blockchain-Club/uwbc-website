@@ -7,15 +7,15 @@
         <nav class="level">
           <div class="level-item has-text-centered">
             <div>
-              <p class="heading">Members</p>
-              <animated-number :value="members" :formatValue="formatPrice" :duration="1000" class="title" />
+              <p class="heading is-size-5">Members</p>
+              <animated-number class="title is-size-2" :value="members" :formatValue="formatPrice" :duration="1000" />
               <span class="title">+</span>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
-              <p class="heading">Events</p>
-              <animated-number :value="events" :formatValue="formatPrice" :duration="1000" class="title" />
+              <p class="heading is-size-5">Events</p>
+              <animated-number class="title is-size-2" :value="events" :formatValue="formatPrice" :duration="1000" />
               <span class="title">+</span>
             </div>
           </div>
@@ -44,40 +44,34 @@
               <img src="../assets/img1.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img2.png" width=70% height=70%>
+              <img src="../assets/img2.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img3.png" width=70% height=70%>
+              <img src="../assets/img3.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img4.png" width=70% height=70%>
+              <img src="../assets/img4.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img5.png" width=70% height=70%>
+              <img src="../assets/img5.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img6.png" width=70% height=70%>
+              <img src="../assets/img6.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img7.png" width=70% height=70%>
+              <img src="../assets/img7.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img8.png" width=70% height=70%>
+              <img src="../assets/img8.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img9.png" width=70% height=70%>
+              <img src="../assets/img9.jpg" width=70% height=70%>
             </slide>
             <slide>
-              <img src="../assets/img10.png" width=70% height=70%>
+              <img src="../assets/img10.jpg" width=70% height=70%>
             </slide>
             <slide>
               <img src="../assets/img11.jpg" width=70% height=70%>
-            </slide>
-            <slide>
-              <img src="../assets/img12.jpg" width=70% height=70%>
-            </slide>
-            <slide>
-              <img src="../assets/img13.jpg" width=70% height=70%>
             </slide>
           </carousel>
         </div>
