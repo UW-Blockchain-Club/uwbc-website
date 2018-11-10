@@ -2,6 +2,14 @@
 
 Official website for the UW Blockchain Club
 
+## TODO
+
+- FAQ
+- Articles
+- Events Calendar
+- Tokens?
+- Pictures
+
 ## Project setup
 
 ```
